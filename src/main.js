@@ -3,7 +3,8 @@ import { createApp } from 'vue'
 import "@/style/main.css"
 // import StudentGradeCalculator from './StudentGradeCalculator.vue'
 // import PersonalFinanceTracker from './PersonalFinanceTracker.vue'
-import Props from './Props.vue'
+// import Props from './Props.vue'
+import Emits from './Emits.vue'
 
 
-createApp(Props).mount('#app')
+createApp(Emits).mount('#app')

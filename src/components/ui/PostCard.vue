@@ -3,7 +3,7 @@
         <h1>{{ username }}</h1>
         <h1>{{ date }}</h1>
         <h1>{{ caption }}</h1>
-        <img :src="photo" alt="vue image" >
+        <img :src="photo" class="w-32" alt="vue image" >
     </div>
 </template>
 

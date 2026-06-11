@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-    import PostCard from './components/PostCard.vue';
+    import PostCard from './components/ui/PostCard.vue';
     import { ref } from 'vue';
 
     const props = ref({
